@@ -60,16 +60,23 @@ Blah Bla Blaaaa.
 ---
 
 ## Installation
-```bash
 
-```
 ### **Client Application**
 ```bash
 
 ```
 ### **Server Application**
 ```bash
+cd ./FastPay
 
+# Restore packages
+dotnet restore
+
+# Run the application
+dotnet run
+
+# Apply migrations & create/update the database
+dotnet ef database update
 ```
 
 ---
