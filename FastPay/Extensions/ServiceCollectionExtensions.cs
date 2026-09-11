@@ -33,6 +33,11 @@ namespace FastPay.Extensions
 
         public static IServiceCollection AddWebApi(this IServiceCollection apis)
         {
+            apis.AddControllers();
+            apis.AddEndpointsApiExplorer();
+            apis.AddSwaggerGen();
+            apis.AddHttpClient();
+
             return apis;
         }
 
