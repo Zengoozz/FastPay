@@ -1,3 +1,11 @@
 <Solution>
-  <Project Path="FastPay/FastPay.csproj" />
+  <Folder Name="/Solution Items/">
+    <File Path="add-mig.bat" />
+    <File Path="update-db.bat" />
+  </Folder>
+  <Project Path="Api/Api.csproj" />
+  <Project Path="Application/Application.csproj" Id="9f885a55-c9d9-4156-8634-b062ceb88a8b" />
+  <Project Path="Domain/Domain.csproj" Id="58f94729-10f9-48bd-9630-d6ae3b066629" />
+  <Project Path="Infrastructure/Infrastructure.csproj" Id="deeae4cc-4999-427c-8393-4577c4a96ad6" />
+  <Project Path="SharedKernel/SharedKernel.csproj" Id="13089499-bac7-4b35-98b7-27f381f8ac77" />
 </Solution>

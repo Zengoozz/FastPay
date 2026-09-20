@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace FastPay.Data
+namespace Infrastructure.Data
 {
     public class AppDbContext : DbContext
     {
