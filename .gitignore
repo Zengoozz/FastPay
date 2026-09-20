@@ -363,3 +363,6 @@ MigrationBackup/
 FodyWeavers.xsd
 /add-mig.bat
 /update-db.bat
+/Infrastructure/Data/FastPay.db
+/Infrastructure/Data/FastPay.db-wal
+/Infrastructure/Data/FastPay.db-shm
